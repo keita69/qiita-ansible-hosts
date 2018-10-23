@@ -1,0 +1,7 @@
+*~
+*.vdi
+.vagrant
+.vagrant.d
+**/provision_proxy.sh
+./provision_proxy.sh
+
