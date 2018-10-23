@@ -1,3 +1,13 @@
+## 参考URL
+Ansibleで対象Host全てを含む/etc/hostsを自動生成する
+https://qiita.com/masa-tu/items/c7b36427fb79bf9f438d
+
+[Ansible] ansible_*変数の値を確認するには
+https://qiita.com/hnakamur/items/8b9fbd358d99cbb271ab
+
+ansible-playbook実行中にFactsを再取得する方法
+https://qiita.com/kumanoryo/items/ece8dc513a8cba4e5234
+
 ## 構成
 README.md … これ
 ansible … ansibleフォルダ。[ベストプラクティスのフォルダ構成](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#id12)参考にしている。
