@@ -4,5 +4,5 @@
 
 {% for item in play_hosts %}
 {% set short_name = item.split('.') %}
-{{ hostvars[item]['ansible_hostname'] }}     {{ hostvars[item]['ansible_eth1']['ipv4']['address'] }}   
+{{ hostvars[item]['ansible_hostname'] }}    {{ hostvars[item]['ansible_eth1']['ipv4']['address'] }}.localdomain    {{ hostvars[item]['ansible_eth1']['ipv4']['address'] }}
 {% endfor %}
